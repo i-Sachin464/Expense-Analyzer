@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Expense Analyzer</string>
+    <string name="menu_title">Filter</string>
+    <string name="credit_messages">Credit SMS</string>
+    <string name="debit_messages">Debit SMS</string>
+    <string name="string_grant">Grant Permission</string>
+</resources>

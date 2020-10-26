@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_grant_permission"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <ScrollView
+        android:id="@+id/error_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/btn_grant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_sms" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title_grant_permission"
+                style="@style/text_style_B18_black_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/space_x_large"
+                android:text="Please Grand Permission To Read SMS" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/message_grant_permission"
+                style="@style/text_style_R15_black_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/space_medium"
+                android:gravity="center"
+                android:text="Unless give access to read SMS you can't use this application" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_grant"
+        style="@style/text_style_M15_green"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_2x_medium_large"
+        android:layout_marginStart="@dimen/space_medium_xx_large"
+        android:layout_marginEnd="@dimen/space_medium_xx_large"
+        android:layout_marginBottom="@dimen/space_medium_xx_large"
+        android:background="@drawable/bg_grant_permission"
+        android:text="@string/string_grant"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

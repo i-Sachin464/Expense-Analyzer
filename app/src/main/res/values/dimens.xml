@@ -1,0 +1,37 @@
+<resources>
+    <dimen name="space_xx_small">2dp</dimen>
+    <dimen name="space_small">4dp</dimen>
+    <dimen name="space_small_medium">6dp</dimen>
+    <dimen name="space_medium">8dp</dimen>
+    <dimen name="space_medium_large">12dp</dimen>
+    <dimen name="space_medium_x_large">14dp</dimen>
+    <dimen name="space_medium_xx_large">16dp</dimen>
+    <dimen name="space_large">20dp</dimen>
+    <dimen name="space_x_large">24dp</dimen>
+    <dimen name="space_2x_medium_large">48dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_x_small">8sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">15sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+
+    <dimen name="expanded_card_elevation">5dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_imageview">16dp</dimen>
+    <dimen name="text_size_sender">18dp</dimen>
+    <dimen name="margin_single_sms_top">4dp</dimen>
+    <dimen name="margin_single_sms_bottom">2dp</dimen>
+    <dimen name="margin_sender">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="type_box_height">55dp</dimen>
+    <dimen name="detailed_text_size">16dp</dimen>
+    <dimen name="previewMessageSize">15sp</dimen>
+    <dimen name="time_margin">8dp</dimen>
+    <dimen name="chart_width">250dp</dimen>
+
+
+
+</resources>
